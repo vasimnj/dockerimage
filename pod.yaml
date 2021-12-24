@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+   name: mywebapp-pod
+   labels:
+     app: mywebapp
+     type: front-end
+spec:
+  containers:
+    - name: mywebapp-container
+      image: vasimnjamadar/mywebapp:1
+
